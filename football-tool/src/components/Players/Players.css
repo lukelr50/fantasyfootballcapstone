@@ -1,0 +1,19 @@
+.horizontal{
+    display: flexbox;
+}
+
+.p {
+    float: right;
+}
+
+
+
+.grid-container {
+   display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2px;
+    align-items: center;
+}
+
+
+
