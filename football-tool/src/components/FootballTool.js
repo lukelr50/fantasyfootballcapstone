@@ -2,6 +2,8 @@ import { Route, Routes } from "react-router-dom"
 import { ApplicationViews } from "./views/applicationViews"
 import { Login } from "./auth/Login"
 import { Register } from "./auth/Register"
+import { AvoidList } from "./userLists/AvoidList"
+
 
 export const FootballTool = () => {
     return <Routes>
@@ -12,9 +14,10 @@ export const FootballTool = () => {
          <Route path="*" element={
 			// <Authorized>
 			// 	<>
-			// 		<NavBar />
+                
+			
 					<ApplicationViews />
-			// 	</>
+			
 			// </Authorized>
 
 

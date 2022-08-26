@@ -2,7 +2,7 @@ import React from "react";
 import "./Players.css"
 
 
-// CREATE FUNCTION THAT SAVES STATE ^^^? IN PLACE OF PLAYERDISPLAY
+
 export const PlayerDisplay = ({singleObj, setCompare}) => {
  
  
@@ -11,9 +11,10 @@ export const PlayerDisplay = ({singleObj, setCompare}) => {
   }
 return(
     <div className="grid-container">
-        
+        {/* // Add player picture */}
         <div className="horizontal">
         <h3>{singleObj.name}</h3>
+        <img> {singleObj.imageURL}</img>
           
             <button
             onClick={() => saveComparison(singleObj)}

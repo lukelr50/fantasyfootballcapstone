@@ -1,6 +1,6 @@
 import { Link, useNavigate } from "react-router-dom"
 
-export const userNav = () => {
+export const UserNav = () => {
     const navigate = useNavigate()
 
     return (

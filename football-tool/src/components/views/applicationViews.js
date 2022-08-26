@@ -1,8 +1,9 @@
 import { Route, Routes, Outlet } from "react-router-dom"
 import {PlayerSearch} from "../Players/PlayerSearch"
 import {PlayerContainer} from "../Players/PlayerContainer"
-import { playerDisplay } from "../Players/PlayerCard"
+
 import "./Views.css"
+import { AvoidList } from "../userLists/AvoidList"
 
 export const ApplicationViews = () => {
     
@@ -16,7 +17,8 @@ export const ApplicationViews = () => {
                 <h1 id="heading">Fantasy Football Tool</h1>
                 <div>Enter a player in the field below</div>
                 <div>{<PlayerContainer/>}</div>
-                {/* <div>{<playerDisplay/>}</div> */}
+                
+                {/* <div>{<AvoidList/>}</div> */}
 
                 <Outlet />
             </>

@@ -179,6 +179,7 @@
         "id": 8,
         "positionId": 1,
         "name": "Tua Tagovailoa",
+        "imageURL": "https://static.www.nfl.com/image/private/t_headshot_desktop/league/qocuraixpumwqnpa6sr3",
         "team": "Miami Dolphins",
       "PassingYPG": 204.1,
     "PassingTDs": 16, 
@@ -801,6 +802,7 @@
     "id": 35,
     "positionId": 4,
     "name": "Zach Ertz",
+    
     "team": "Arizona Cardinals",
   "PassingYPG": 0,
 "PassingTDs": 0, 
