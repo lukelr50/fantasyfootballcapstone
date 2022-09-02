@@ -1,11 +1,12 @@
 import React from "react"
 import {  useState } from "react"
 import { TargetCard } from "./TargetCard"
-import { DeleteButton } from "./TargetCard"
 
 
 
-export const TargetList = ({playerState}) => {
+
+export const TargetList = ({playerState,update}) => {
+
 // const addToList = (player) => {
 
 
@@ -19,9 +20,9 @@ export const TargetList = ({playerState}) => {
         <>
     <section className="target-list">
     <h1>Target List</h1>
-                {playerState?.filter(x=> x.want===true).map(x => <TargetCard key={x.id} singleObj={x} />)}
+                {playerState?.filter(x=> x.want===true).map(x => <TargetCard key={x.id} singleObj={x} update={update}  /> )}
                 {playerState?.player?.name}
-                <DeleteButton/>
+                
             </section>
 
 

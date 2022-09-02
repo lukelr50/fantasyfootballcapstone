@@ -11,12 +11,6 @@
       "username": "Mark",
       "email": "mark64@email.com",
       "admin": false
-    },
-    {
-      "username": "",
-      "email": "jazminalberto35@gmail.com",
-      "userName": "jazmin35",
-      "id": 3
     }
   ],
   "players": [
@@ -848,57 +842,9 @@
   "potentialList": [
     {
       "userId": 1,
-      "playerId": 8,
-      "want": true,
-      "id": 1
-    },
-    {
-      "userId": 2,
-      "playerId": 1,
-      "want": true,
-      "id": 2
-    },
-    {
-      "userId": 1,
-      "playerId": 1,
+      "playerId": 4,
       "want": false,
-      "id": 3
-    },
-    {
-      "userId": 2,
-      "playerId": 8,
-      "want": true,
-      "id": 4
-    },
-    {
-      "userId": 2,
-      "playerId": 8,
-      "want": true,
-      "id": 5
-    },
-    {
-      "userId": 2,
-      "playerId": 18,
-      "want": true,
-      "id": 6
-    },
-    {
-      "userId": 2,
-      "playerId": 23,
-      "want": true,
-      "id": 7
-    },
-    {
-      "userId": 2,
-      "playerId": 18,
-      "want": true,
-      "id": 8
-    },
-    {
-      "userId": 2,
-      "playerId": 11,
-      "want": true,
-      "id": 9
+      "id": 1
     }
   ]
 }

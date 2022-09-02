@@ -42,7 +42,7 @@ export const PlayerContainer = () => {
 
         <>
         <AvoidList playerState={playerList}  update={updateList}/>
-        <TargetList playerState={playerList}/>
+        <TargetList playerState={playerList} update={updateList}/>
         </>
         {/* <PlayerDisplay searchTermState={searchTerms} /> */}
     </div>
