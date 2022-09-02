@@ -12,8 +12,18 @@
    display: inline-grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 2px;
-    align-items: center;
+    align-items: left;
 }
 
 
+
+.enterSearch {
+    display: flex;
+    justify-content: left;
+}
+
+.taco {
+    display: flex;
+    justify-content: space-evenly;
+}
 

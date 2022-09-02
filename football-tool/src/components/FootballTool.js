@@ -2,7 +2,9 @@ import { Route, Routes } from "react-router-dom"
 import { ApplicationViews } from "./views/applicationViews"
 import { Login } from "./auth/Login"
 import { Register } from "./auth/Register"
-import { AvoidList } from "./userLists/AvoidList"
+import { Authorized } from "./views/Authorized"
+import { UserNav } from "./nav/UserNav"
+
 
 
 export const FootballTool = () => {
@@ -12,13 +14,13 @@ export const FootballTool = () => {
         
 
          <Route path="*" element={
-			// <Authorized>
-			// 	<>
-                
+			 <Authorized>
+			 	<>
+                    <UserNav/>
 			
 					<ApplicationViews />
-			
-			// </Authorized>
+			</>
+			 </Authorized>
 
 
         } /> 

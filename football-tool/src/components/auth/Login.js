@@ -5,7 +5,7 @@ import "./Login.css"
 
 
 export const Login = () => {
-    const [email, set] = useState("rapp22@email.com")
+    const [email, set] = useState("")
     const navigate = useNavigate()
 
     const handleLogin = (e) => {
@@ -36,7 +36,7 @@ export const Login = () => {
                     <h1>Fantasy Football Player Comparison Tool</h1>
                     <h2>Please sign in</h2>
                     <fieldset>
-                        <label htmlFor="inputEmail"> Email address </label>
+                        <label htmlFor="inputEmail">  </label>
                         <input type="email"
                             value={email}
                             onChange={evt => set(evt.target.value)}
@@ -52,7 +52,7 @@ export const Login = () => {
                 </form>
             </section>
             <section className="link--register">
-                <Link to="/register">Not a member yet?</Link>
+                <Link to="/register">Create an Account</Link>
             </section>
         </main>
     )

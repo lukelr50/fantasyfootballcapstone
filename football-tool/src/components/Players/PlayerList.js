@@ -3,10 +3,11 @@ import { PlayerDisplay } from "./PlayerCard";
 import "./Players.css"
 
 
-export const PlayerList = ({searchTermState}) => {
+export const PlayerList = ({searchTermState, playerUpdateState}) => {
     const [players, setPlayers] = useState([])
 const [filteredPlayers, setFiltered] = useState([])
 const [compare, setCompare] = useState({})
+
   // 
 const localToolUser = localStorage.getItem("FootballTool_user")
 const toolUserObject = JSON.parse(localToolUser)
@@ -44,9 +45,10 @@ return(<>
                 <div>
                 
                 {filteredPlayers.map
-                (singlePlayer => <PlayerDisplay setCompare={setCompare}  key={players.id} singleObj={singlePlayer} />)}
+                (singlePlayer => <PlayerDisplay setCompare={setCompare} playerUpdateState={playerUpdateState} key={players.id} singleObj={singlePlayer} />)}
                 </div>
-              <div>  <PlayerDisplay setCompare={setCompare}  key={players.id} singleObj={compare} />
+              <div> 
+                 <PlayerDisplay setCompare={setCompare} playerUpdateState={playerUpdateState}  key={players.id} singleObj={compare} />
                
               </div>
                 {/* <button onClick={()=> navigate("/stuffs/create")}>add stuff</button> */}

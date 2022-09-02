@@ -1,3 +1,10 @@
 .heading {
-    align-items: center;
+   display: left;
+   justify-content: left;
 }
+
+.search {
+    display: left;
+    justify-content: left;
+}
+

@@ -5,7 +5,7 @@ export const PlayerSearch = ({setterFunction}) => {
 //    const filter
    
     return (
-        <div>
+        <div className="enterSearch">
        <input
                 onChange={
                     (changeEvent) => {
