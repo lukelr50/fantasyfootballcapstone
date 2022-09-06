@@ -845,6 +845,12 @@
       "playerId": 4,
       "want": false,
       "id": 1
+    },
+    {
+      "userId": 1,
+      "playerId": 1,
+      "want": true,
+      "id": 2
     }
   ]
 }
